@@ -1,0 +1,52 @@
+.navbar {
+  box-shadow: px 2px 5px #3292a6;
+  opacity: 0.9;
+  background-color: #fff;
+  border-bottom: 1px solid #3292a6; }
+  .navbar .nav-item {
+    font-size: 1.4rem; }
+
+#home {
+  margin-top: 130px;
+  background: url(../img/mountains.jpg);
+  min-height: 600px; }
+  #home .primary-overlay {
+    background-color: rgba(50, 146, 166, 0.8);
+    min-height: 600px; }
+
+#news-grid .c1 {
+  border: 2px solid #3292a6; }
+  #news-grid .c1 h2 {
+    color: #3292a6; }
+#news-grid .c2 {
+  background-color: #3292a6; }
+  #news-grid .c2 h2 {
+    color: #fff; }
+
+#about .container .div {
+  width: 310px;
+  margin: 0 auto; }
+  #about .container .div h1 {
+    color: #3292a6; }
+  #about .container .div hr {
+    margin: 30px 0; }
+
+.div h1 {
+  color: #3292a6; }
+
+#authors .card-body:hover {
+  background-color: #3292a6; }
+  #authors .card-body:hover h2, #authors .card-body:hover p, #authors .card-body:hover i {
+    color: #fff; }
+  #authors .card-body:hover .d-flex {
+    background-color: #3292a6; }
+#authors .card-body img {
+  margin-top: -50px;
+  margin-bottom: 10px; }
+#authors i {
+  color: #3292a6;
+  font-size: 1.5rem; }
+
+@media (max-width: 786px) {
+  .mb-res {
+    margin-bottom: 1rem; } }

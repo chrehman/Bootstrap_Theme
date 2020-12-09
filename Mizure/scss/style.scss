@@ -1,0 +1,99 @@
+$primary: #3292a6;
+$primary-overlay: rgba(50, 146, 166, 0.8);
+
+
+body{
+  // margin-top: 105px;
+}
+.navbar{
+  box-shadow: px 2px 5px $primary;
+  opacity: 0.9;
+  background-color: #fff;
+  border-bottom: 1px solid $primary;
+  .nav-item{
+    font-size: 1.4rem;
+  }
+}
+#home{
+  margin-top:130px;
+    background:url(../img/mountains.jpg);
+    // position: relative;
+    min-height:600px;
+    .primary-overlay{
+      // position: absolute;
+      // width: 100%;
+      background-color:$primary-overlay ;
+      min-height: 600px;
+    }
+
+  
+}
+
+#news-grid{
+
+  .c1{
+    border:2px solid $primary;
+    h2{
+      color:$primary
+    }
+  }
+  .c2{
+    background-color: $primary;
+    h2{
+      color:#fff;
+    }
+  }
+}
+
+#about{
+
+  .container{
+
+    .div{
+      width:310px;
+      margin:0 auto;
+      
+      h1{
+        color: #3292a6;
+      }
+      hr{
+        margin: 30px 0;
+      }
+    }
+  }
+}
+.div{
+  h1{
+    color:#3292a6;
+  }
+}
+
+#authors{
+  .card-body:hover{
+    background-color: $primary;
+    h2,p,i{
+      color: #fff;
+    }
+    .d-flex{
+      background-color:$primary;
+    }
+    
+
+  }
+  .card-body{
+    img{
+      margin-top:-50px;
+      margin-bottom:10px ;
+    }
+  }
+  i{
+    color:$primary;
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width:786px){
+  .mb-res{
+    margin-bottom: 1rem;
+  }
+}
