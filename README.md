@@ -2,7 +2,7 @@
 
 ## LoopLAB Theme
 
-![alt text](https://github.com/chrehman/Bootstrap_Theme/blob/master/LoopLab/theme.jpg =250x)
+![alt text](https://github.com/chrehman/Bootstrap_Theme/blob/master/LoopLab/theme.jpg )
 
 ## Mizure Theme
-![alt text](https://github.com/chrehman/Bootstrap_Theme/blob/master/Mizure/theme.png =250x)
+![alt text](https://github.com/chrehman/Bootstrap_Theme/blob/master/Mizure/theme.png )
